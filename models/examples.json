@@ -1,0 +1,110 @@
+{
+ "A": {
+  "text": "Congratulations, you are selected! Pay ₹1,500 registration fee immediately to confirm your internship.",
+  "ml": {
+   "class": 1,
+   "label": "Suspicious",
+   "confidence": 0.748399997119665,
+   "p_suspicious": 0.748399997119665
+  },
+  "rules": {
+   "indicators": [
+    "Upfront fee",
+    "Urgent payment",
+    "Guaranteed selection"
+   ],
+   "rule_score": 68,
+   "rule_level": "HIGH"
+  },
+  "final": 71.8,
+  "level": "HIGH"
+ },
+ "B": {
+  "text": "Share your OTP and bank account number to receive stipend. 100% selection guaranteed.",
+  "ml": {
+   "class": 1,
+   "label": "Suspicious",
+   "confidence": 0.6709562893371259,
+   "p_suspicious": 0.6709562893371259
+  },
+  "rules": {
+   "indicators": [
+    "Guaranteed selection",
+    "Sensitive credentials"
+   ],
+   "rule_score": 50,
+   "rule_level": "MEDIUM"
+  },
+  "final": 59.4,
+  "level": "MEDIUM"
+ },
+ "C": {
+  "text": "Earn ₹5,000 per day from home, no skills required.",
+  "ml": {
+   "class": 1,
+   "label": "Suspicious",
+   "confidence": 0.6955100798203064,
+   "p_suspicious": 0.6955100798203064
+  },
+  "rules": {
+   "indicators": [
+    "Unrealistic daily pay",
+    "Vague easy-money claims"
+   ],
+   "rule_score": 22,
+   "rule_level": "LOW"
+  },
+  "final": 48.2,
+  "level": "MEDIUM"
+ },
+ "D": {
+  "text": "Refundable course fee of ₹2,000; certificate included.",
+  "ml": {
+   "class": 1,
+   "label": "Suspicious",
+   "confidence": 0.522423267734218,
+   "p_suspicious": 0.522423267734218
+  },
+  "rules": {
+   "indicators": [
+    "Upfront fee"
+   ],
+   "rule_score": 35,
+   "rule_level": "MEDIUM"
+  },
+  "final": 44.5,
+  "level": "MEDIUM"
+ },
+ "E": {
+  "text": "We are pleased to invite you to a technical interview on 12 Dec via company Teams link. Please carry your ID.",
+  "ml": {
+   "class": 0,
+   "label": "Safer-looking",
+   "confidence": 0.7683557437120297,
+   "p_suspicious": 0.23164425628797022
+  },
+  "rules": {
+   "indicators": [],
+   "rule_score": 0,
+   "rule_level": "LOW"
+  },
+  "final": 12.7,
+  "level": "LOW"
+ },
+ "F": {
+  "text": "Internship stipend ₹10,000/month; no fee. Apply via the careers page; selection after two interview rounds.",
+  "ml": {
+   "class": 0,
+   "label": "Safer-looking",
+   "confidence": 0.8002346312993384,
+   "p_suspicious": 0.1997653687006616
+  },
+  "rules": {
+   "indicators": [],
+   "rule_score": 0,
+   "rule_level": "LOW"
+  },
+  "final": 11.0,
+  "level": "LOW"
+ }
+}
